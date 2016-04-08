@@ -14,8 +14,8 @@ public class KalkulatorProsty {
         double a = Double.valueOf(args[1]);
         double b = Double.valueOf(args[2]);
         
-        if (args[0] == "+"){};//tak zle
-        if (args[0].equals("+")){}//tak nie za dobrze
+        //if (args[0] == "+"){};//tak zle
+        //if (args[0].equals("+")){}//tak nie za dobrze
         if ("+".equals(args[0])) {
             System.out.println("Wynik: " + a + b);
         }
