@@ -16,6 +16,8 @@ public class Trojkat extends AFigura{
 
 
 public Trojkat(){
+  
+    
 super("trojkat");
 this.a = 0;
 this.b = 0;
@@ -26,11 +28,14 @@ this.nr = Trojkat.licznik;
 }
 
 public Trojkat(double a, double b, double c, double h){
+     
 this();
 this.a = a;
 this.b = b;
 this.c = c;
 this.h = h;
+
+
 }
 @Override
 public double pole(){

@@ -10,7 +10,12 @@ public class Main {
         //AFigura f1 = new Figura();
         //ale można tak:
         AFigura f1 = new Kolo(1);
+        System.out.println(f1.toString());
+        System.out.println("obwód" + f1.obwód());
         AFigura f2 = new Trojkat(3,3,3,1);
+        System.out.println(f2.toString());
+        AFigura f3 = new Trapez(9,4,5);
+        System.out.println(f3.toString());
 
         AFigura[] tab = new AFigura[6];
         tab[0] = new Prostokat(1, 3);

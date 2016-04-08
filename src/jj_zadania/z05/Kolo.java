@@ -12,10 +12,14 @@ package jj_zadania.z05;
  */
 public class Kolo extends AFigura {
   double r;
+  static int licznik =0;
+  final int nr;
   
   public Kolo(){
       super("kolo");
       r = 0;
+      Kolo.licznik++;
+      this.nr = Kolo.licznik;
   }
   
   public Kolo(double r){
