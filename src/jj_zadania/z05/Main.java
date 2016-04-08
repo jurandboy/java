@@ -22,7 +22,8 @@ public class Main {
 
         double suma = 0;
         for (AFigura f : tab) {     
-            System.out.println(f.toString());
+            System.out.print(f.toString());
+            System.out.println(" \t obwód = " + f.obwód() + "pole =" + f.pole());
             suma += f.pole();
         }
 
